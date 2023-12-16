@@ -2,5 +2,5 @@
 
 set -e
 
-npm run build
+(cd frontend && npm run build)
 uvicorn main:app --reload
