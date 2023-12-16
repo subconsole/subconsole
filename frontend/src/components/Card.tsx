@@ -1,3 +1,5 @@
+import BarGraph from "./BarGraph.tsx";
+
 const Card: React.FC = () => {
   return (
     <>
@@ -6,6 +8,7 @@ const Card: React.FC = () => {
             Featured
           </div>
           <div className="card-body">
+            <BarGraph height="100"></BarGraph>
             <h5 className="card-title">Special title treatment</h5>
             <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
             <a href="#" className="btn btn-primary">Go somewhere</a>
